@@ -103,7 +103,7 @@ export default {
         // Se a data estiver no formato correto, verifica se é uma data válida
         const parts = this.knightForm.birthday.split('/');
         const day = parseInt(parts[0], 10);
-        const month = parseInt(parts[1], 10) - 1; // Os meses no JavaScript são base 0 (0-11)
+        const month = parseInt(parts[1], 10) - 1;
         const year = parseInt(parts[2], 10);
         const date = new Date(year, month, day);
         if (isNaN(date.getTime())) {
@@ -132,7 +132,6 @@ export default {
         });
 
         if (response.ok) {
-          // Limpar o formulário após o sucesso
           this.knightForm = {
             name: 'john doe',
             nickname: 'doe john',

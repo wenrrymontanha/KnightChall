@@ -38,5 +38,4 @@ export default {
 </script>
 
 <style>
-/* Estilos opcionais podem ser adicionados aqui */
 </style>
