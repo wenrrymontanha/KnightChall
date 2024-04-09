@@ -11,6 +11,7 @@ full life cycle application from front to back on a docker conteiner
 
 
 ############## CONSIDERAÇÕES #############
+
 quantidade de weapons na lista de Knights  => contando só as weapons equipadas;
 
 attack weapon modifier => só soma quando o Knight.keyattr == weapon.attr;
