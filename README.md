@@ -1,5 +1,5 @@
 # KnightChall
-full life cycle application front-to-back on a docker conteiner 
+full life cycle application front-to-back on a docker container 
 
 -> Open terminal in */KNIGHTCHALL
 
