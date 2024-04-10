@@ -1,6 +1,7 @@
 <template>
   <div id="cadastroTab" class="tab-content active">
     <h2>Cadastro de Knight</h2>
+    <div class="container">
     <div class="cadastro-scroll">
       <form @submit.prevent="submitKnightForm">
         <label for="name">Nome:</label>
@@ -59,6 +60,7 @@
       </form>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -163,7 +165,7 @@ export default {
 
 <style>
 .cadastro-scroll {
-  max-height: 550px;
+  max-height: auto;
   overflow-y: auto;
 }
 </style>

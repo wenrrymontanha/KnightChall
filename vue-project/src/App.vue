@@ -66,4 +66,9 @@ export default {
   cursor: pointer;
   border-radius: 4px;
 }
+.container {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 100vh;
+}
 </style>
