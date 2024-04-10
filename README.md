@@ -2,13 +2,13 @@
 full life cycle application front-to-back on a docker container 
 
 -> Open terminal in */KNIGHTCHALL
-//entra no projeto do vue.js
+//entrar no projeto do vue.js
 -> cd vue-project
 
 //instalar as dependencias do vue.js
 -> npm install
-
 -> npm run build
+
 //voltar pro diretorio do docker-compose.yml
 -> cd..
 
