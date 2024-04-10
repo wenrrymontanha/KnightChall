@@ -165,7 +165,7 @@ export default {
 
 <style>
 .cadastro-scroll {
-  max-height: auto;
+  max-height: 80vh;
   overflow-y: auto;
 }
 </style>
