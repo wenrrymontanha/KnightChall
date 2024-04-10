@@ -1,7 +1,7 @@
 <template>
   <div id="getKnightTab" class="tab-content">
     <h2>Buscar Knight pelo ID</h2>    
-    <div class="cadastro-scroll">
+    <div>
     <label for="searchId">ID do Cavaleiro:</label>
     <input type="text" id="searchId" name="searchId" v-model="knightId">
     <button @click="searchKnightById">Buscar</button>
@@ -80,8 +80,4 @@ export default {
 };
 </script>
 <style>
-.cadastro-scroll {
-  max-height: 600px;
-  overflow-y: auto;
-}
 </style>

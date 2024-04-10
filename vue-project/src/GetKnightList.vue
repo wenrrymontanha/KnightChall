@@ -77,8 +77,4 @@ th, td {
 tr:nth-child(even) {
   background-color: #383434;
 }
-.cadastro-scroll {
-  max-height: 600px;
-  overflow-y: auto;
-}
 </style>

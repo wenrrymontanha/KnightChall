@@ -68,6 +68,6 @@ export default {
 }
 .container {
   overflow-x: auto;
-  max-height: 100vh;
+  max-height: 100%;
 }
 </style>

@@ -2,7 +2,7 @@
   <div id="cadastroTab" class="tab-content active">
     <h2>Cadastro de Knight</h2>
     <div class="container">
-    <div class="cadastro-scroll">
+    <div>
       <form @submit.prevent="submitKnightForm">
         <label for="name">Nome:</label>
         <input type="text" id="name" v-model="knightForm.name" @focus="clearField('name')" required><br><br>
@@ -28,6 +28,8 @@
 
             <label :for="'weaponEquipped' + (index + 1)">Equipada:</label>
             <input type="checkbox" :id="'weaponEquipped' + (index + 1)" v-model="weapon.equipped">
+            
+            <div style="width:100%; height:1px; background-color: #ddd;"></div>
           </div>
 
           <button type="button" @click="addWeapon">Adicionar Arma</button>
@@ -164,8 +166,9 @@ export default {
 </script>
 
 <style>
-.cadastro-scroll {
-  max-height: 80vh;
-  overflow-y: auto;
+.divider {
+    width: 2px;
+    background-color: gray;
+    margin: 0 10px;
 }
 </style>
