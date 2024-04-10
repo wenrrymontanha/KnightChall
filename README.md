@@ -2,17 +2,20 @@
 full life cycle application front-to-back on a docker container 
 
 -> Open terminal in */KNIGHTCHALL
-
+//entra no projeto do vue.js
 -> cd vue-project
 
+//instalar as dependencias do vue.js
 -> npm install
 
 -> npm run build
-
+//voltar pro diretorio do docker-compose.yml
 -> cd..
 
--> Run 'docker-compose up --build'
+//executar o docker-compose + buildar a application
+-> Executar o Comando 'docker-compose up --build'
 
+//abrir a pagina do front do projeto
 -> Open Front Application on 'http://localhost:8080/'
 
 -> BackEnd Application Listening on 'http://localhost:32785/api/Knights'
